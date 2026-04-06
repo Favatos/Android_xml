@@ -9,15 +9,15 @@
 
     <Button
         android:id="@+id/start"
-        android:layout_width="0dp"
-        android:layout_height="64dp"
+        android:layout_width="@dimen/_0dp"
+        android:layout_height="@dimen/_64dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginHorizontal="24dp"
-        android:text="@string/start"
-        android:textSize="24sp"
+        android:layout_marginHorizontal="@dimen/btn_margin_horizontal"
+        android:text="@string/main_start"
+        android:textSize="@dimen/text_btn"
         />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
