@@ -65,8 +65,4 @@ class ListActivity : AppCompatActivity() {
 
         binding.toolbar.setNavigationOnClickListener { finish() }
     }
-
-    fun applyFilter(filtered: List<Car>) {
-        adapter.updateList(filtered)
-    }
 }

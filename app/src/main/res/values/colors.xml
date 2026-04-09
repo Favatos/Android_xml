@@ -4,4 +4,9 @@
     <color name="white">#FFFFFFFF</color>
     <color name="calc_btn_operator">#ff9f06</color>
     <color name="calc_btn_number">#333333</color>
+
+    <color name="weather_cold">#BBDEFB</color>
+    <color name="weather_normal">#C8E6C9</color>
+    <color name="weather_hot">#FFCDD2</color>
+    <color name="weather_rain">#B3E5FC</color>
 </resources>
