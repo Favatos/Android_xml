@@ -24,10 +24,10 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".HomeActivity"/>
-        <activity android:name=".CalculatorActivity"/>
-        <activity android:name=".ListActivity" />
-        <activity android:name=".WeatherActivity" />
+        <activity android:name=".feature.home.HomeActivity"/>
+        <activity android:name=".feature.calculator.presentation.CalculatorActivity"/>
+        <activity android:name=".feature.list.presentation.ListActivity" />
+        <activity android:name=".feature.weather.presentation.WeatherActivity" />
     </application>
 
 </manifest>

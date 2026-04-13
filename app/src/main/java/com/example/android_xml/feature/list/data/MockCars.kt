@@ -1,22 +1,11 @@
-package com.example.android_xml
+package com.example.android_xml.feature.list.data
 
-import android.os.Bundle
-import androidx.appcompat.app.AppCompatActivity
-import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.android_xml.databinding.ListActivityBinding
+import com.example.android_xml.R
+import com.example.android_xml.feature.list.domain.model.Car
 
-class ListActivity : AppCompatActivity() {
-
-    lateinit var binding : ListActivityBinding
-    private lateinit var adapter: CarAdapter
-    private lateinit var allCars: List<Car>
-
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        binding = ListActivityBinding.inflate(layoutInflater)
-        setContentView(binding.root)
-
-        allCars = listOf(
+object MockCars {
+    fun returnList() : List<Car>{
+        return listOf(
             Car(
                 brand = "BMW",
                 model = "M5",
@@ -58,11 +47,5 @@ class ListActivity : AppCompatActivity() {
                 imageResId = R.drawable.kia
             )
         )
-        adapter = CarAdapter(allCars)
-
-        binding.recyclerView.layoutManager = LinearLayoutManager(this)
-        binding.recyclerView.adapter = adapter
-
-        binding.toolbar.setNavigationOnClickListener { finish() }
     }
 }

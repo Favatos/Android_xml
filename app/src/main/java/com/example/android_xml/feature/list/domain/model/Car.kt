@@ -1,4 +1,4 @@
-package com.example.android_xml
+package com.example.android_xml.feature.list.domain.model
 
 data class Car(
     val brand: String,

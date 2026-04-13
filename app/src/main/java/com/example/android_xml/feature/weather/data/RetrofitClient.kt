@@ -1,4 +1,4 @@
-package com.example.android_xml
+package com.example.android_xml.feature.weather.data
 
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor

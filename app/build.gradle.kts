@@ -53,4 +53,10 @@ dependencies {
     implementation("com.squareup.retrofit2:converter-gson:2.12.0")//Конвертер JSON
     implementation("com.squareup.okhttp3:logging-interceptor:4.12.0")//Для логирования работы с сетью
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.9.0")//Корутины
+
+    implementation("net.objecthunter:exp4j:0.4.8")
+
+    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0")
+    implementation("androidx.lifecycle:lifecycle-livedata-ktx:2.7.0")
+    implementation("androidx.activity:activity-ktx:1.8.2")
 }

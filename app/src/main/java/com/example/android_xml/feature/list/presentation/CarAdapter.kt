@@ -1,15 +1,16 @@
-package com.example.android_xml
+package com.example.android_xml.feature.list.presentation
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.android_xml.databinding.ItemCarBinding
+import com.example.android_xml.feature.list.domain.model.Car
 
 class CarAdapter(
     private var carList: List<Car>
 ) : RecyclerView.Adapter<CarAdapter.CarViewHolder>() {
 
-    inner class CarViewHolder(
+    class CarViewHolder(
         private val binding: ItemCarBinding
     ) : RecyclerView.ViewHolder(binding.root) {
 

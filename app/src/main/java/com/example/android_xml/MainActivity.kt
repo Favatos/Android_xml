@@ -4,6 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.example.android_xml.databinding.ActivityMainBinding
+import com.example.android_xml.feature.home.HomeActivity
 
 class MainActivity : AppCompatActivity() {
     lateinit var binding: ActivityMainBinding
