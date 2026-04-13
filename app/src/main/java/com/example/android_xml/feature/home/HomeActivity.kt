@@ -1,8 +1,11 @@
-package com.example.android_xml
+package com.example.android_xml.feature.home
 
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import com.example.android_xml.feature.calculator.presentation.CalculatorActivity
+import com.example.android_xml.feature.list.presentation.ListActivity
+import com.example.android_xml.feature.weather.presentation.WeatherActivity
 import com.example.android_xml.databinding.HomeActivityBinding
 
 class HomeActivity : AppCompatActivity() {

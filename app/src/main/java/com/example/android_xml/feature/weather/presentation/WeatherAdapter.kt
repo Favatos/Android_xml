@@ -1,15 +1,17 @@
-package com.example.android_xml
+package com.example.android_xml.feature.weather.presentation
 
 import androidx.recyclerview.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.ViewGroup
+import com.example.android_xml.feature.weather.data.DataSeries
+import com.example.android_xml.R
 import com.example.android_xml.databinding.ItemWeatherBinding
 
 class WeatherAdapter(
     private var weatherList: List<DataSeries>
 ) : RecyclerView.Adapter<WeatherAdapter.WeatherViewHolder>() {
 
-    inner class WeatherViewHolder(
+    class WeatherViewHolder(
         private val binding: ItemWeatherBinding
     ) : RecyclerView.ViewHolder(binding.root) {
 

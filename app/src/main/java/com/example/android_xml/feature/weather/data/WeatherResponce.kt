@@ -1,4 +1,4 @@
-package com.example.android_xml
+package com.example.android_xml.feature.weather.data
 
 data class WeatherResponse(
     val product: String,
