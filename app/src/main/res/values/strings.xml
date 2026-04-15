@@ -25,4 +25,9 @@
 
     <string name="car_image">car_image</string>
     <string name="toolbar_back">back</string>
+    <string name="nav_main">Main</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_calculator">Calculator</string>
+    <string name="nav_ist">List</string>
+    <string name="nav_weather">Weather</string>
 </resources>

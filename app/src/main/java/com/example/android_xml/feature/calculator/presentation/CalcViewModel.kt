@@ -10,10 +10,8 @@ class CalculatorViewModel(
     private val repository : CalcRepository
 ) : ViewModel() {
 
-    // текущее выражение (логика)
     private var currentExpression: String = "0"
 
-    // то, что отображается на экране
     private val _display = MutableLiveData("0")
     val display: LiveData<String> = _display
 
