@@ -40,7 +40,7 @@
             android:layout_width="@dimen/calc_btn_width"
             android:layout_height="match_parent"
             android:text="@string/calc_numeric_seven"
-            android:textSize="32sp"
+            android:textSize="@dimen/calc_btn_textSize"
             android:backgroundTint="@color/calc_btn_number"/>
 
         <Button
@@ -48,7 +48,7 @@
             android:layout_width="@dimen/calc_btn_width"
             android:layout_height="match_parent"
             android:text="@string/calc_numeric_eight"
-            android:textSize="32sp"
+            android:textSize="@dimen/calc_btn_textSize"
             android:backgroundTint="@color/calc_btn_number"/>
 
         <Button
@@ -56,7 +56,7 @@
             android:layout_width="@dimen/calc_btn_width"
             android:layout_height="match_parent"
             android:text="@string/calc_numeric_nine"
-            android:textSize="32sp"
+            android:textSize="@dimen/calc_btn_textSize"
             android:backgroundTint="@color/calc_btn_number"/>
 
         <Button
@@ -65,7 +65,7 @@
             android:layout_height="match_parent"
             android:text="@string/calc_divide"
             android:backgroundTint="@color/calc_btn_operator"
-            android:textSize="32sp"/>
+            android:textSize="@dimen/calc_btn_textSize"/>
     </LinearLayout>
 
 
@@ -81,7 +81,7 @@
             android:layout_width="@dimen/calc_btn_width"
             android:layout_height="match_parent"
             android:text="@string/calc_numeric_four"
-            android:textSize="32sp"
+            android:textSize="@dimen/calc_btn_textSize"
             android:backgroundTint="@color/calc_btn_number"/>
 
         <Button
@@ -89,7 +89,7 @@
             android:layout_width="@dimen/calc_btn_width"
             android:layout_height="match_parent"
             android:text="@string/calc_numeric_five"
-            android:textSize="32sp"
+            android:textSize="@dimen/calc_btn_textSize"
             android:backgroundTint="@color/calc_btn_number"/>
 
         <Button
@@ -97,7 +97,7 @@
             android:layout_width="@dimen/calc_btn_width"
             android:layout_height="match_parent"
             android:text="@string/calc_numeric_six"
-            android:textSize="32sp"
+            android:textSize="@dimen/calc_btn_textSize"
             android:backgroundTint="@color/calc_btn_number"/>
 
         <Button
@@ -106,7 +106,7 @@
             android:layout_height="match_parent"
             android:text="@string/calc_multiply"
             android:backgroundTint="@color/calc_btn_operator"
-            android:textSize="32sp"/>
+            android:textSize="@dimen/calc_btn_textSize"/>
     </LinearLayout>
 
     <LinearLayout
@@ -121,7 +121,7 @@
             android:layout_width="@dimen/calc_btn_width"
             android:layout_height="match_parent"
             android:text="@string/calc_numeric_one"
-            android:textSize="32sp"
+            android:textSize="@dimen/calc_btn_textSize"
             android:backgroundTint="@color/calc_btn_number"/>
 
         <Button
@@ -129,7 +129,7 @@
             android:layout_width="@dimen/calc_btn_width"
             android:layout_height="match_parent"
             android:text="@string/calc_numeric_two"
-            android:textSize="32sp"
+            android:textSize="@dimen/calc_btn_textSize"
             android:backgroundTint="@color/calc_btn_number"/>
 
         <Button
@@ -137,7 +137,7 @@
             android:layout_width="@dimen/calc_btn_width"
             android:layout_height="match_parent"
             android:text="@string/calc_numeric_three"
-            android:textSize="32sp"
+            android:textSize="@dimen/calc_btn_textSize"
             android:backgroundTint="@color/calc_btn_number"/>
 
         <Button
@@ -145,7 +145,7 @@
             android:layout_width="@dimen/calc_btn_width"
             android:layout_height="match_parent"
             android:text="@string/calc_minus"
-            android:textSize="32sp"
+            android:textSize="@dimen/calc_btn_textSize"
             android:backgroundTint="@color/calc_btn_operator"/>
     </LinearLayout>
 
@@ -161,7 +161,7 @@
             android:layout_width="@dimen/calc_btn_width"
             android:layout_height="match_parent"
             android:text="@string/calc_numeric_zero"
-            android:textSize="32sp"
+            android:textSize="@dimen/calc_btn_textSize"
             android:backgroundTint="@color/calc_btn_number"/>
 
         <Button
@@ -169,7 +169,7 @@
             android:layout_width="@dimen/calc_btn_width"
             android:layout_height="match_parent"
             android:text="@string/calc_c"
-            android:textSize="32sp"
+            android:textSize="@dimen/calc_btn_textSize"
             android:backgroundTint="@color/calc_btn_operator"/>
 
         <Button
@@ -177,7 +177,7 @@
             android:layout_width="@dimen/calc_btn_width"
             android:layout_height="match_parent"
             android:text="@string/calc_equals"
-            android:textSize="32sp"
+            android:textSize="@dimen/calc_btn_textSize"
             android:backgroundTint="@color/calc_btn_operator"/>
 
         <Button
@@ -185,7 +185,7 @@
             android:layout_width="@dimen/calc_btn_width"
             android:layout_height="match_parent"
             android:text="@string/calc_plus"
-            android:textSize="32sp"
+            android:textSize="@dimen/calc_btn_textSize"
             android:backgroundTint="@color/calc_btn_operator"/>
     </LinearLayout>
 </LinearLayout>

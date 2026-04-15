@@ -9,14 +9,16 @@ import com.example.android_xml.feature.weather.data.DataSeries
 import com.example.android_xml.feature.weather.data.RetrofitClient
 import kotlinx.coroutines.launch
 
-class WeatherViewModel : ViewModel() {
+class WeatherViewModel(
+    private val retrofit: RetrofitClient
+) : ViewModel() {
     private val _weatherList = MutableLiveData<List<DataSeries>>()
     val weatherList: LiveData<List<DataSeries>> = _weatherList
 
     fun loadWeather() {
         viewModelScope.launch {
             try {
-                val response = RetrofitClient.weatherApi.getWeatherForecast(
+                val response = retrofit.weatherApi.getWeatherForecast(
                     longitude = 37.6,
                     latitude = 55.7
                 )

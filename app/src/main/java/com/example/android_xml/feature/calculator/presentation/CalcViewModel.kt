@@ -4,13 +4,14 @@ import android.util.Log
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.example.android_xml.feature.calculator.data.CalcRepositoryImpl
+import com.example.android_xml.feature.calculator.domain.CalcRepository
 
-class CalculatorViewModel : ViewModel() {
+class CalculatorViewModel(
+    private val repository : CalcRepository
+) : ViewModel() {
 
     // текущее выражение (логика)
     private var currentExpression: String = "0"
-    private val repository = CalcRepositoryImpl()
 
     // то, что отображается на экране
     private val _display = MutableLiveData("0")
