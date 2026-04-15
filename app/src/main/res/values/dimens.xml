@@ -6,4 +6,5 @@
     <dimen name="btn_margin_horizontal">24dp</dimen>
     <dimen name="btn_home_marginVertical">16dp</dimen>
     <dimen name="calc_btn_width">95dp</dimen>
+    <dimen name="calc_btn_textSize">32sp</dimen>
 </resources>

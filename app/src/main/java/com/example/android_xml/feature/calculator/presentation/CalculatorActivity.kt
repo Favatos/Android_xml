@@ -1,12 +1,12 @@
 package com.example.android_xml.feature.calculator.presentation
 
 import android.os.Bundle
-import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import com.example.android_xml.databinding.CalculatorActivityBinding
+import org.koin.androidx.viewmodel.ext.android.viewModel
 
 class CalculatorActivity : AppCompatActivity() {
-    private val viewModel : CalculatorViewModel by viewModels()
+    private val viewModel : CalculatorViewModel by viewModel()
     lateinit var binding: CalculatorActivityBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
