@@ -25,7 +25,6 @@ class WeatherAdapter(
 
             val temp = weather.temp2m.max
 
-            // 🌡️ Цвет по температуре
             val color = when {
                 temp <= 0 -> R.color.weather_cold
                 temp <= 15 -> R.color.weather_normal
@@ -34,7 +33,6 @@ class WeatherAdapter(
 
             binding.rootLayout.setBackgroundResource(color)
 
-            // 🌧️ Картинка по погоде
             val image = when (weather.weather) {
                 "clearday" -> R.drawable.ic_sun
                 "cloudy" -> R.drawable.ic_cloud

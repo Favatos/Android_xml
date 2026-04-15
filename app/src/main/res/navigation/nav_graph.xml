@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.android_xml.MainFragment"
+        android:label="@string/nav_main">
+
+        <action
+            android:id="@+id/action_main_to_home"
+            app:destination="@+id/homeFragment"
+            />
+    </fragment>
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.android_xml.feature.home.presentation.HomeFragment"
+        android:label="@string/nav_home">
+
+        <action
+            android:id="@+id/action_home_to_calc"
+            app:destination="@+id/calculatorFragment"
+            />
+        <action
+            android:id="@+id/action_home_to_list"
+            app:destination="@+id/listFragment"
+            />
+        <action
+            android:id="@+id/action_home_to_weather"
+            app:destination="@+id/weatherFragment"
+            />
+    </fragment>
+
+    <fragment
+        android:id="@+id/calculatorFragment"
+        android:name="com.example.android_xml.feature.calculator.presentation.CalculatorFragment"
+        android:label="@string/nav_calculator">
+    </fragment>
+
+    <fragment
+        android:id="@+id/listFragment"
+        android:name="com.example.android_xml.feature.list.presentation.ListFragment"
+        android:label="@string/nav_ist">
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/weatherFragment"
+        android:name="com.example.android_xml.feature.weather.presentation.WeatherFragment"
+        android:label="@string/nav_weather">
+    </fragment>
+
+</navigation>
